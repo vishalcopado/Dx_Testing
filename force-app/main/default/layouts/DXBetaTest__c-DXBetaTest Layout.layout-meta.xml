@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>Test_Picklist__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>test_phone__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
