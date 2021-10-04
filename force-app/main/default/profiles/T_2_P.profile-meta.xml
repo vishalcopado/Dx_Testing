@@ -197,6 +197,11 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.t_3_f__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BetaTestCustom__c.BetaTestF2__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -381,6 +386,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>BetaTestCustom__c-BetaTestCustom Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -420,6 +428,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>T_2__c-T_2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>T_3__c-T_3 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>T_4__c-T-4 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>custom_object_raul__c-custom_object_raul Layout</layout>
@@ -516,6 +530,24 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>T_2__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>T_3__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>T_4__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
