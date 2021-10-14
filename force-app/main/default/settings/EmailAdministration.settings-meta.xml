@@ -7,7 +7,7 @@
     <enableEmailToSalesforce>false</enableEmailToSalesforce>
     <enableEmailTrackingIPBlocklist>false</enableEmailTrackingIPBlocklist>
     <enableEmailWorkflowApproval>false</enableEmailWorkflowApproval>
-    <enableEnhancedEmailEnabled>false</enableEnhancedEmailEnabled>
+    <enableEnhancedEmailEnabled>true</enableEnhancedEmailEnabled>
     <enableHandleBouncedEmails>true</enableHandleBouncedEmails>
     <enableHtmlEmail>false</enableHtmlEmail>
     <enableInternationalEmailAddresses>false</enableInternationalEmailAddresses>
@@ -15,7 +15,7 @@
     <enableResendBouncedEmails>false</enableResendBouncedEmails>
     <enableRestrictTlsToDomains>false</enableRestrictTlsToDomains>
     <enableSendViaExchangePref>false</enableSendViaExchangePref>
-    <enableSendViaGmailPref>false</enableSendViaGmailPref>
+    <enableSendViaGmailPref>true</enableSendViaGmailPref>
     <enableUseOrgFootersForExtTrans>false</enableUseOrgFootersForExtTrans>
     <sendEmailsEvenWhenAutomationUpdatesSameRecord>false</sendEmailsEvenWhenAutomationUpdatesSameRecord>
     <sendMassEmailNotification>true</sendMassEmailNotification>

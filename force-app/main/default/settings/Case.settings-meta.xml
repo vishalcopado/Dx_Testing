@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
-    <caseAutoProcUser>false</caseAutoProcUser>
     <caseFeedItemSettings>
         <characterLimit>400</characterLimit>
         <displayFormat>Default</displayFormat>
@@ -9,41 +8,24 @@
     <caseFeedReadUnreadLtng>false</caseFeedReadUnreadLtng>
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseFeedLayoutOn>false</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>admin-fyjzciqicetp@example.com</defaultCaseOwner>
+    <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
+    <defaultCaseOwner>test-coikcqwnrkxg@example.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>admin-fyjzciqicetp@example.com</defaultCaseUser>
+    <defaultCaseUser>test-coikcqwnrkxg@example.com</defaultCaseUser>
     <emailToCase>
-        <enableE2CAttachmentAsFile>false</enableE2CAttachmentAsFile>
-        <enableE2CSourceTracking>true</enableE2CSourceTracking>
-        <enableEmailToCase>true</enableEmailToCase>
-        <enableHtmlEmail>false</enableHtmlEmail>
-        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
-        <enableThreadIDInBody>true</enableThreadIDInBody>
-        <enableThreadIDInSubject>true</enableThreadIDInSubject>
-        <notifyOwnerOnNewCaseEmail>false</notifyOwnerOnNewCaseEmail>
-        <overEmailLimitAction>Bounce</overEmailLimitAction>
-        <preQuoteSignature>false</preQuoteSignature>
-        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
+        <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
     <enableCaseFeed>true</enableCaseFeed>
-    <enableCollapseEmailThread>false</enableCollapseEmailThread>
-    <enableDraftEmails>true</enableDraftEmails>
+    <enableCollapseEmailThread>true</enableCollapseEmailThread>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
-    <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
     <enableEscalateQfiToCaseInternal>false</enableEscalateQfiToCaseInternal>
-    <enableEscalateQfiToCaseNetworks>false</enableEscalateQfiToCaseNetworks>
-    <enableExtNetworksCaseFeedEnabled>false</enableExtNetworksCaseFeedEnabled>
     <enableMultiLangSolnSrchCSS>false</enableMultiLangSolnSrchCSS>
     <enableMultiLangSolnSrchPKB>false</enableMultiLangSolnSrchPKB>
     <enableMultiLangSolution>false</enableMultiLangSolution>
     <enableSolutionCategory>false</enableSolutionCategory>
     <enableSolutionInlineCategory>true</enableSolutionInlineCategory>
     <enableSolutionShortSummary>true</enableSolutionShortSummary>
-    <enableSuggestedArticlesApplication>false</enableSuggestedArticlesApplication>
-    <enableSuggestedArticlesCustomerPortal>false</enableSuggestedArticlesCustomerPortal>
-    <enableSuggestedArticlesPartnerPortal>false</enableSuggestedArticlesPartnerPortal>
-    <enableSuggestedSolutions>false</enableSuggestedSolutions>
+    <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <escalateCaseBefore>false</escalateCaseBefore>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
@@ -54,6 +36,7 @@
     <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <visibleInCssCheckbox>false</visibleInCssCheckbox>
     <webToCase>
-        <enableWebToCase>false</enableWebToCase>
+        <caseOrigin>Web</caseOrigin>
+        <enableWebToCase>true</enableWebToCase>
     </webToCase>
 </CaseSettings>

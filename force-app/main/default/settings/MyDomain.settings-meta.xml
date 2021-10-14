@@ -4,10 +4,10 @@
     <doesApiLoginRequireOrgDomain>false</doesApiLoginRequireOrgDomain>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
-    <myDomainName>customer-agility-7583</myDomainName>
+    <myDomainName>site-power-4781-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforceLimited</myDomainSuffix>
     <use3rdPartyCookieBlockingCompatibleHostnames>true</use3rdPartyCookieBlockingCompatibleHostnames>
-    <useEdge>false</useEdge>
+    <useEdge>true</useEdge>
     <useStabilizedMyDomainHostnames>true</useStabilizedMyDomainHostnames>
     <useStabilizedSandboxMyDomainHostnames>false</useStabilizedSandboxMyDomainHostnames>
 </MyDomainSettings>

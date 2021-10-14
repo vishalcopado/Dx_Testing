@@ -54,6 +54,13 @@
             <desktopEnabled>true</desktopEnabled>
             <mobileEnabled>true</mobileEnabled>
         </notificationChannels>
+        <notificationType>feed_on_field_service</notificationType>
+    </notificationTypeSettings>
+    <notificationTypeSettings>
+        <notificationChannels>
+            <desktopEnabled>true</desktopEnabled>
+            <mobileEnabled>true</mobileEnabled>
+        </notificationChannels>
         <notificationType>group_announce</notificationType>
     </notificationTypeSettings>
     <notificationTypeSettings>
@@ -97,6 +104,13 @@
             <mobileEnabled>false</mobileEnabled>
         </notificationChannels>
         <notificationType>reply_recommendation_notify</notificationType>
+    </notificationTypeSettings>
+    <notificationTypeSettings>
+        <notificationChannels>
+            <desktopEnabled>true</desktopEnabled>
+            <mobileEnabled>false</mobileEnabled>
+        </notificationChannels>
+        <notificationType>security_center_alert</notificationType>
     </notificationTypeSettings>
     <notificationTypeSettings>
         <notificationChannels>

@@ -1,24 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
-    <labels>
-        <fullName>custom_label_raul_1</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>custom_label_raul_1</shortDescription>
-        <value>custom_label_raul_1</value>
-    </labels>
-    <labels>
-        <fullName>custom_label_raul_2</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>custom_label_raul_2</shortDescription>
-        <value>custom_label_raul_2</value>
-    </labels>
-    <labels>
-        <fullName>custom_label_raul_3</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>custom_label_raul_3</shortDescription>
-        <value>custom_label_raul_3</value>
-    </labels>
-</CustomLabels>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
+
