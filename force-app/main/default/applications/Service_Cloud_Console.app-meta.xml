@@ -4,7 +4,7 @@
         <detailPageRefreshMethod>none</detailPageRefreshMethod>
         <keyboardShortcuts>
             <defaultShortcuts>
-                <action>FOCUS_CONSOLE</action>
+                <action>FOCUS_CONSOLE3</action>
                 <active>true</active>
                 <keyCommand>ESC</keyCommand>
             </defaultShortcuts>
