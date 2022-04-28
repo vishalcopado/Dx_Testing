@@ -4,6 +4,60 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>dashboardName</name>
+                    <value>HBRNijvFhnIhKtTMHQRrFofRhppouu</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideOnError</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>desktopDashboards:embeddedDashboard</componentName>
+                <identifier>desktopDashboards_embeddedDashboard1</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!$User.Persona_Subtype__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Underwriter</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Persona__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Credit</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>dashboardName</name>
+                    <value>mbIDsCLIXsoOgpDoiAXmNjzcsAbWeo</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideOnError</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>desktopDashboards:embeddedDashboard</componentName>
+                <identifier>desktopDashboards_embeddedDashboard7</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!$User.Persona__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Credit</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Persona_Subtype__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Sr Underwriter</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>dashboardId</name>
                     <value>Book_of_Business_Dashboard</value>
                 </componentInstanceProperties>
@@ -44,6 +98,7 @@
                     <value>false</value>
                 </componentInstanceProperties>
                 <componentName>wave:waveDashboard</componentName>
+                <identifier>wave_waveDashboard</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
@@ -64,6 +119,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>desktopDashboards:embeddedDashboard</componentName>
+                <identifier>desktopDashboards_embeddedDashboard</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -121,6 +177,7 @@
                     <value>10</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
@@ -157,6 +214,20 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard2</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 OR 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!$User.Persona__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Implementation</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Persona__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Customer Success</rightValue>
+                    </criteria>
+                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -186,6 +257,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard3</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -228,6 +300,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard4</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -270,6 +343,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard5</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -327,6 +401,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard6</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -369,6 +444,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard7</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -411,6 +487,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard8</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -468,6 +545,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard9</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -510,6 +588,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard10</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -552,6 +631,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard11</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -609,6 +689,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard12</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -651,6 +732,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard13</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -693,6 +775,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard14</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -750,6 +833,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard15</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -792,6 +876,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard16</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -834,6 +919,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard17</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -891,6 +977,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard18</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -933,6 +1020,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard19</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -975,6 +1063,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard20</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -1032,6 +1121,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard21</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1074,6 +1164,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard22</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1116,6 +1207,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard23</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -1173,6 +1265,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard24</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1215,6 +1308,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard25</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1257,6 +1351,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard26</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -1314,6 +1409,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard27</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1356,6 +1452,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard28</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1398,6 +1495,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard29</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -1455,6 +1553,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard30</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1497,6 +1596,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard31</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1539,6 +1639,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard32</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -1596,6 +1697,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard33</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1638,6 +1740,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard34</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1680,6 +1783,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard35</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -1737,6 +1841,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard36</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1779,6 +1884,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard37</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1821,6 +1927,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard38</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
                     <criteria>
@@ -1862,6 +1969,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>desktopDashboards:embeddedDashboard</componentName>
+                <identifier>desktopDashboards_embeddedDashboard2</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
@@ -1882,6 +1990,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>desktopDashboards:embeddedDashboard</componentName>
+                <identifier>desktopDashboards_embeddedDashboard3</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
@@ -1902,6 +2011,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>desktopDashboards:embeddedDashboard</componentName>
+                <identifier>desktopDashboards_embeddedDashboard4</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
@@ -1922,6 +2032,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>desktopDashboards:embeddedDashboard</componentName>
+                <identifier>desktopDashboards_embeddedDashboard5</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1948,6 +2059,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>desktopDashboards:embeddedDashboard</componentName>
+                <identifier>desktopDashboards_embeddedDashboard6</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -1982,6 +2094,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
@@ -2010,6 +2123,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart2</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
@@ -2022,6 +2136,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>home:heroChart</componentName>
+                <identifier>home_heroChart</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
@@ -2054,11 +2169,203 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:recentItems</componentName>
+                <identifier>flexipage_recentItems</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
                         <operator>NE</operator>
                         <rightValue>Implementation</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>enableInlineEdit</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>entityName</name>
+                    <value>Credit_Request__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>filterName</name>
+                    <value>Tier_1_Credit_Request</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideActionBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideSearchBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>pageSize</name>
+                    <value>3</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard1</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!$User.Persona__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Credit</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>enableInlineEdit</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>entityName</name>
+                    <value>Credit_Request__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>filterName</name>
+                    <value>Tier_2_Credit_Request</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideActionBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideSearchBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>pageSize</name>
+                    <value>3</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard41</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!$User.Persona__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Credit</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>enableInlineEdit</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>entityName</name>
+                    <value>Credit_Request__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>filterName</name>
+                    <value>Tier_3_Credit_Request</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideActionBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideSearchBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>pageSize</name>
+                    <value>3</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard42</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!$User.Persona__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Credit</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>enableInlineEdit</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>entityName</name>
+                    <value>Credit_Request__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>filterName</name>
+                    <value>Escalation</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideActionBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideSearchBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>pageSize</name>
+                    <value>3</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard43</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!$User.Persona__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Credit</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>enableInlineEdit</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>entityName</name>
+                    <value>Credit_Request__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>filterName</name>
+                    <value>My_Credit_Request</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideActionBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideSearchBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>pageSize</name>
+                    <value>3</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard44</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 OR 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!$User.Persona__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Account Executive</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Persona__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Enterprise Sales Support Rep</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
@@ -2094,6 +2401,7 @@
                     <value>10</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard39</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
@@ -2134,6 +2442,7 @@
                     <value>2</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard40</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND (2 OR 3)</booleanFilter>
                     <criteria>
@@ -2157,6 +2466,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>runtime_sales_activities:todayTaskContainer</componentName>
+                <identifier>runtime_sales_activities_todayTaskContainer</identifier>
                 <visibilityRule>
                     <booleanFilter>1 OR 2 OR 3</booleanFilter>
                     <criteria>
@@ -2180,6 +2490,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>home:eventContainer</componentName>
+                <identifier>home_eventContainer</identifier>
                 <visibilityRule>
                     <booleanFilter>1 OR 2 OR 3</booleanFilter>
                     <criteria>
@@ -2203,6 +2514,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>home:assistant</componentName>
+                <identifier>home_assistant</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
@@ -2215,6 +2527,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>runtime_approval_process:pendingApprovalCard</componentName>
+                <identifier>runtime_approval_process_pendingApprovalCard</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$User.Persona__c}</leftValue>
