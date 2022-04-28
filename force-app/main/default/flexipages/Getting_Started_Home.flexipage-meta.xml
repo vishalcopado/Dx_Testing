@@ -2180,6 +2180,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>home:eventContainer</componentName>
+                <identifier>home_assistant1</identifier>
                 <visibilityRule>
                     <booleanFilter>1 OR 2 OR 3</booleanFilter>
                     <criteria>
